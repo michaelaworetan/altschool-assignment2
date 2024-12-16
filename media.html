@@ -1,12 +1,80 @@
-<!DOCTYPE html>
+]<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Alt School info </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Alt School info </title>
 </head>
 <body>
-    
-</body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Page</h1>
+    <p>A powerful message about me!</p>
+  </header>
+  <section>
+    <h2>Who Am I?</h2>
+    <p>Check out this image that adapts to different devices!</p>
+    <picture>
+      <!-- Mobile -->
+      <source srcset="mobile.jpg" media="(max-width: 600px)">
+      <!-- Tablet -->
+      <source srcset="tablet.jpg" media="(max-width: 1024px)">
+      <!-- Laptop -->
+      <source srcset="laptop.jpg" media="(min-width: 1025px)">
+      <!-- Default Fallback -->
+      <img src="default.jpg" alt="Responsive image about me">
+    </picture>
+  </section>
 
+  <!-- Audio Element -->
+  <section>
+    <h2>My Voice</h2>
+    <p>Listen to a short introduction about me:</p>
+    <audio controls>
+      <source src="" type="audio/mpeg">
+      <source src="" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Video Element -->
+  <section>
+    <h2>My Story in Motion</h2>
+    <p>Watch this short video about my journey:</p>
+    <video controls width="100%" autoplay muted>
+      <source src="" type="video/mp4">
+      <source src="" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Figure with Caption -->
+  <section>
+    <h2>A Moment That Inspires Me</h2>
+    <figure>
+      <img src="" alt="An inspiring moment" width="500">
+      <figcaption>This is a moment that motivates me to achieve my goals.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Embed Media -->
+  <section>
+    <h2>My Favorite Video</h2>
+    <p>Here's a video from YouTube that I find inspiring:</p>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="" 
+      title="Inspirational Video"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Thank you for visiting my page. Let’s stay connected!</p>
+  </footer>
+</body>
 </html>
