@@ -1,3 +1,6 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,17 +8,46 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
 }
 
-button {
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #007BFF;
+    margin-bottom: 5px;
+}
+
+h2 {
     font-size: 1.5rem;
-    padding: 10px 20px;
-    margin: 10px 0;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+/* Button Styles */
+button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
     background-color: #007BFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
 
 button a {
@@ -26,4 +58,29 @@ button a {
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
 }
