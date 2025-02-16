@@ -8,7 +8,6 @@ This project contains two HTML files that demonstrate the use of various multime
   - **Images**: Includes a responsive image using the `<picture>` element.
   - **Audio**: Embedded audio with playback controls.
   - **Video**: Videos included with `<video>` tags and YouTube embed.
-  - **Figures**: Images with captions using the `<figure>` and `<figcaption>` tags.
   - **Iframe**: An embedded YouTube video for additional inspiration.
 
 ### 2. `table.html`
@@ -23,8 +22,4 @@ This project contains two HTML files that demonstrate the use of various multime
    - `media.html`: Displays multimedia elements.
    - `table.html`: Shows a detailed table of courses offered by AltSchool Africa.
 
-## Project Purpose
-This project is a demonstration of:
-- Embedding multimedia content in HTML.
-- Structuring data in tables with semantic elements.
 
